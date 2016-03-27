@@ -13,6 +13,6 @@ if __name__=='__main__':
     with open('about.txt') as f:
         for line,prevlines in search(f,'python',5):
             for pline in prevlines:
-                print(pline,end='')
-            print(line,end='')
+                print(pline)
+            print(line)
             print('-'*20)
